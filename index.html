@@ -19,6 +19,21 @@
             <button id="generate-btn">번호 생성</button>
             <lotto-numbers></lotto-numbers>
         </section>
+
+        <section class="contact-form">
+            <h2>제휴 문의</h2>
+            <form action="https://formspree.io/f/YOUR_FORMSPREE_ID" method="POST">
+                <div class="input-group">
+                    <label for="email">이메일</label>
+                    <input type="email" name="email" id="email" placeholder="email@example.com" required>
+                </div>
+                <div class="input-group">
+                    <label for="message">문의 내용</label>
+                    <textarea name="message" id="message" rows="4" placeholder="문의하실 내용을 입력해주세요." required></textarea>
+                </div>
+                <button type="submit" id="submit-btn">문의하기</button>
+            </form>
+        </section>
     </main>
     <script src="main.js"></script>
 </body>
